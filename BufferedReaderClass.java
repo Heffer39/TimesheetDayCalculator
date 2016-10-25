@@ -22,10 +22,11 @@ public class BufferedReaderClass {
         BufferedReader reader = null;
       
         try {
-        	//home
+         //home
             //fis = new FileInputStream("C:\\Users\\Ryan\\OneDrive\\Workspace\\TimesheetDayCalculator\\Sampleday.txt");
-        	//work
-        	fis = new FileInputStream("C:\\Users\\rcerankowski\\OneDrive\\Workspace\\TimesheetDayCalculator\\Sampleday.txt");
+         //work
+         //fis = new FileInputStream("C:\\Users\\rcerankowski\\OneDrive\\Workspace\\TimesheetDayCalculator\\Sampleday.txt");
+         fis = new FileInputStream("C:\\Users\\rcerankowski\\Documents\\GitHub\\TimesheetDayCalculator\\Sampleday.txt");
             reader = new BufferedReader(new InputStreamReader(fis));
           
             System.out.println("Reading File line by line using BufferedReader");
@@ -35,13 +36,13 @@ public class BufferedReaderClass {
             //String line = reader.readLine();
             String timeLine = reader.readLine();
             String taskLine = reader.readLine();
-            while(timeLine != null){            	
-            	dc.parseText(timeLine, taskLine, dc);
-        		dc.root.calculateTime();
-        		
-        		timeLine = reader.readLine();
-            	taskLine = reader.readLine();
-            	
+            while(timeLine != null){             
+             dc.parseText(timeLine, taskLine, dc);
+          dc.root.calculateTime();
+          
+          timeLine = reader.readLine();
+             taskLine = reader.readLine();
+             
                 //System.out.println(line);
                 //line = reader.readLine();
             }
@@ -51,7 +52,7 @@ public class BufferedReaderClass {
             dc.printResults();
             //DayCalculator.calculateTotalHours(dc);
             
-    		//DayCalculator.printResults(dc);
+      //DayCalculator.printResults(dc);
           
         } catch (FileNotFoundException ex) {
             Logger.getLogger(BufferedReader.class.getName()).log(Level.SEVERE, null, ex);

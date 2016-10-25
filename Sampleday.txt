@@ -1,0 +1,22 @@
+9:15 to 9:45
+Project 1 : Task 1
+9:45 to 10:00
+Project 2 : Some Task
+10:00 to 10:15
+Project 1 : Task 1
+10:15 to 10:45
+Project 3 : Work
+10:45 to 12:00
+Project 1 : Task 1
+12:00 to 12:30
+Project 2 : Some Task
+12:30 to 13:30
+Internal : Lunch
+13:30 to 14:30
+Project 2 : Some Task
+14:30 to 15:15
+Project 2 : Other Task
+15:30 to 17:45
+Project 1 : Task 1
+17:45 to 18:15
+Project 3 : Work
