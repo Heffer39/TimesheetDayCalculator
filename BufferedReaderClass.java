@@ -26,7 +26,8 @@ public class BufferedReaderClass {
             //fis = new FileInputStream("C:\\Users\\Ryan\\OneDrive\\Workspace\\TimesheetDayCalculator\\Sampleday.txt");
          //work
          //fis = new FileInputStream("C:\\Users\\rcerankowski\\OneDrive\\Workspace\\TimesheetDayCalculator\\Sampleday.txt");
-         fis = new FileInputStream("C:\\Users\\rcerankowski\\Documents\\GitHub\\TimesheetDayCalculator\\Sampleday.txt");
+         //fis = new FileInputStream("C:\\Users\\rcerankowski\\Documents\\GitHub\\TimesheetDayCalculator\\Sampleday.txt");
+         fis = new FileInputStream("Sampleday.txt");
             reader = new BufferedReader(new InputStreamReader(fis));
           
             System.out.println("Reading File line by line using BufferedReader");
